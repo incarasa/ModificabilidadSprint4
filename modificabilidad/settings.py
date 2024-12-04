@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'modificabilidad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': "disponibilidad_db",
-        'USER': "disponibilidad_user",
-        'PASSWORD': "password",
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': "modificabilidad_db",
+        'USER': "monitoring_user",
+        'PASSWORD': "isis2503",
+        'HOST': '10.128.0.60',
+        'PORT': '',
     }
 }
 
